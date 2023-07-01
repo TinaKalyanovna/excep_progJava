@@ -28,9 +28,7 @@ public class task_3 {
             int a = 90;
             int b = 3;
             System.out.println(a / b);
-            printSum(23, 234); // можно передать переменную a, b. Условия задачи не понятны
-//             int[] abc = { 1, 2 }; массив нигде не используется можно удалить
-//             abc[3] = 9; выдаст ошибку IndexOutOfBoundsException Условия задачи не ясны, незнаю что сним делать
+            printSum(23, 234); 
         } catch (IndexOutOfBoundsException ex) {
             System.out.println("Массив выходит за пределы своего размера!" + ex);
         } catch (NullPointerException ex) {
